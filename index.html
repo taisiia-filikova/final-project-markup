@@ -17,11 +17,8 @@
 
 <body>
     <!-- Header -->
-    <header>
-        <div class="container header">
-            <nav class="header-nav">
-
-                <!-- Незалогиненный хедер
+    <header class="header">
+        <!-- Незалогиненный хедер
                 <a href="./index.html" class="link">
                     <svg class="logo">
                         <use href="./img/sprite.svg#icon-logo"></use>
@@ -34,34 +31,45 @@
                 </ul> -->
 
 
-                <!-- Залогиненный хедер -->
-                <a href="./index.html" class="link">
-                    <svg class="logo">
-                        <use href="./img/sprite.svg#logo"></use>
-                    </svg>
-                </a>
-                <ul class="nav navigation">
-                    <li class="item">
-                        <a href="./index.html" class="link current">Home</a>
-                    </li>
-                    <li class="item">
-                        <a href="./materials.html" class="link">Materials</a>
-                    </li>
-                    <li class="item">
-                        <a href="./contacts.html" class="link">Contacts</a>
-                    </li>
-                </ul>
-            </nav>
-            <p>D</p>
-            <svg class="logo">
-                <use href="./img/sprite.svg#exit"></use>
-            </svg>
-        </div>
+        <!-- Залогиненный хедер -->
+
+        <nav class="navigation">
+            <a href="./index.html" class="link">
+                <svg class="logo">
+                    <use href="./img/sprite.svg#logo"></use>
+                </svg>
+            </a>
+
+            <ul class="mobile-menu is-open" id="mobile-menu" data-menu>
+                <li class="item">
+                    <a href="./index.html" class="link current">Home</a>
+                </li>
+                <li class="item">
+                    <a href="./materials.html" class="link">Materials</a>
+                </li>
+                <li class="item">
+                    <a href="./contacts.html" class="link ">Contacts</a>
+                </li>
+                <li class="item"><svg class="exit" width="16" height="16">
+                        <use href="./img/sprite.svg#exit"></use>
+                    </svg></li>
+            </ul>
+
+            <button type="button" class="menu-button is-open" data-menu-button>
+                <svg width="20" height="20" aria-label="Переключатель мобильного меню" aria-expanded="false"
+                    aria-controls="menu-container" aria-controls="menu-container">
+                    <use class="cross-icon" href="./img/sprite.svg#cross"></use>
+                    <use class="menu-icon" href="./img/sprite.svg#menu"></use>
+                </svg>
+            </button>
+        </nav>
+        <button class="name-button" type="button">D</button>
     </header>
 
     <main>
+
         <!-- Home-login -->
-        <section>
+        <section class="container">
             <h1>Pro Test</h1>
             <p><span>[</span> We will help you find weak points in knowledge so that you can strengthen it. We will show
                 you
@@ -78,16 +86,17 @@
                         <label class="form-label" for="mail">E-mail</label>
                     </div>
                     <div class="form-field">
-                        <textarea name="comment" id="comment" rows="10" class="form-texterea" placeholder=""></textarea>
-                        <label class="comment-label" for="comment">Password</label>
+                        <input class="form-input" type="password" name="password" id="password" />
+                        <label class="comment-label" for="password">Password</label>
                     </div>
                 </form>
                 <button type="submit">Sign in</button>
                 <button type="submit">Sign up</button>
             </div>
         </section>
+
         <!-- Home -->
-        <section>
+        <section class="container">
             <h4>“Regression testing. What is it?
                 If the system compiles, that's good, if it boots, that's great!”</h4>
             <p>___________________</p>
@@ -102,7 +111,7 @@
         </section>
 
         <!-- Testing -->
-        <section>
+        <section class="container">
             <p>[ Testing theory_ ]</p>
             <button type="button">Finish test</button>
             <div>
@@ -129,7 +138,7 @@
         </section>
 
         <!-- Results -->
-        <section>
+        <section class="container">
             <h4>Results</h4>
             <p>[ Testing theory_]</p>
             <p>___________________</p>
@@ -146,7 +155,7 @@
 
 
         <!-- Materials -->
-        <section>
+        <section class="container">
             <h2>Useful literature</h2>
             <p>___________________</p>
             <ul>
@@ -166,7 +175,7 @@
         </section>
 
         <!-- Contacts -->
-        <section>
+        <section class="container">
             <h4>Our team</h4>
             <p>___________________</p>
             <div>
@@ -247,6 +256,8 @@
             </p>
         </div>
     </footer>
+
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
