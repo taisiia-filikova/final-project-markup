@@ -116,23 +116,6 @@ section{
   border-bottom: solid 1px #BBBBBB;
 }
 
-@media screen and (max-width: 767px) {
-  .navigation{
-  padding: 20px 21px;
-   display: flex;
-   justify-content: space-between;
-   position: relative;
-   width: 100%;
-}
-}
-
-@media screen and (min-width: 768px) {
-  .navigation{
-   justify-content: flex-start
-   ;
-}
-}
-
 .logo {
   width: 129px;
   height: 28px;
@@ -143,9 +126,18 @@ section{
   justify-content: center;
   align-items: center;
   }
-  
+
+           /* Мобилка */
 @media screen and (max-width: 767px) {
-    .mobile-menu {
+  .navigation{
+   padding: 20px 21px;
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+   width: 100%;
+  }
+
+   .mobile-menu {
     display: none;
     position: absolute;
     z-index: 1;
@@ -159,37 +151,12 @@ section{
     .is-open {
       display: block;
     }
-}
 
-@media screen and (min-width: 768px) {
-    .mobile-menu {
-   margin-left: 65px;
-    padding: 0;
-    display: flex;
-   
-  }
-}
-  @media screen and (min-width: 1280px) {
-    .mobile-menu{
-      justify-content: space-between;
-    }
-  }
-
-    
-  @media screen and (max-width: 767px) {
     .mobile-menu .item{
     background-color: var(--bgColor);
     border-top: solid 1px #BBBBBB ;
     padding: 26px 118px;
   }
-}
-@media screen and (min-width: 768px) {
-    .mobile-menu .item{
-      margin-right: 70px;
-      justify-content: center;
-  /* align-items: center; */
-  }
-}
   .mobile-menu .link{
     position: relative;
     display: inline-block;
@@ -261,14 +228,40 @@ line-height: 0.42;
     display: none;
     text-align: center;
 }
+}
+
+                     /* Планшет */
 
 @media screen and (min-width: 768px) {
-.menu-button {
+  .navigation{
+   justify-content: flex-start;
+   
+}
+.mobile-menu {
+   margin-left: 65px;
+    padding: 0;
+    display: flex;
+   
+  }
+  .mobile-menu .item{
+      margin-right: 70px;
+      justify-content: center;
+  /* align-items: center; */
+  }
+
+  .menu-button {
 display: none;
 }
 }
 
+       /* Десктоп */
+  @media screen and (min-width: 1280px) {
+    .mobile-menu{
+      justify-content: space-between;
+    }
+  }
 
+    
 
 /* Home-register-login */
 .home-login-title{
