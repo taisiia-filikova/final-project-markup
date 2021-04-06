@@ -682,6 +682,147 @@ margin-right: 20px;
 
 
 
+
+ /* Testing */
+ .testing{
+  padding: 24px 20px 20px 20px;
+ }
+
+.testing-header{
+ display: flex;
+ align-items: center;
+ margin-bottom: 20px;
+}
+
+.testing-theory{
+margin-top: 6px;
+margin-right: 85px;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.test-finish{
+width: 130px;
+height: 48px;
+color:var(--primaryWhiteColor);
+background-color: var(--OrangeColor);
+border: none;
+
+font-weight: 500;
+font-size: 10px;
+line-height: 1.2;
+/* display: flex;
+align-items: center;
+text-align: center; */
+letter-spacing: 0.02em;
+
+cursor: pointer;
+transition: var(--transition);
+}
+
+.test-finish:focus,
+.test-finish:hover{
+  transform: scale(1.02);
+}
+
+.testing-field{
+padding: 40px 20px 60px 20px;
+background-color: var(--primaryWhiteColor);
+box-shadow: var(--boxShadowModal);
+}
+.testing-question{
+font-weight: 400;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color:var(--textColor);
+font-size: 10px;
+line-height: 1.2;
+margin-bottom: 20px;
+}
+
+.testing-answers{
+font-weight:700;
+color:var(--OrangeColor);
+}
+
+.testing-question-text{
+font-weight: 700;
+text-align: center;
+letter-spacing: 0.02em;
+margin-bottom: 20px;
+font-size: 12px;
+line-height: 1.5;
+}
+
+.testing-line{
+margin-top: 0;
+border: none;
+background-color:#E2E3E5;
+height: 1px;
+width: 130px;
+margin-bottom: 28px;
+}
+
+.testing-form .item:not(:last-child){
+  margin-bottom: 12px;
+}
+
+.testing-label{
+cursor: pointer;
+font-weight: 500;
+font-size: 10px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+/* margin-left: 20px; */
+/* display: block; */
+  /* text-indent: -30px;
+  padding-left: 16px; */
+}
+
+.answer-text{
+  margin-left: 20px;
+}
+
+.testing-input{
+  height: 18px;
+  width: 18px;
+ 
+  
+  /* border: 1px solid var(--primaryBlackColor); */
+}
+/* 
+.testing-input:not(:last-child)
+{
+margin-top: 15px;
+} */
+
+.testing-previous{}
+.testing-next{}
+.arrow-left{}
+.arrow-right{}
+
+
+
+
+ @media screen and (max-width: 767px) {
+  
+}
+
+@media screen and (min-width: 768px) {
+ 
+}
+
+@media screen and (min-width: 1280px) {
+  
+}
+
+
+
+
+
 /* Footer */
 .footer{
   background-color: var(--blueBGColor);
