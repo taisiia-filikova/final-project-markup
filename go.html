@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Test</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
+        integrity="sha512-yp4nScgc3FLGSJK6gj7q+YzX4ApX8ifljxvw3x5oYG4Js/u7ABw/U+pP31kefS2iz83pHbwe+Le2WvcosArp6Q=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- Незалогиненный хедер -->
+        <!-- <nav class="navigation">
+            <a href="./index.html" class="link">
+                <svg class="logo">
+                    <use href="./img/sprite.svg#logo"></use>
+                </svg>
+            </a>
+
+            <ul class="mobile-menu is-open" id="mobile-menu" data-menu>
+                <li class="item">
+                    <a href="./contacts.html" class="link ">Contacts</a>
+                </li>
+            </ul>
+
+            <button type="button" class="menu-button is-open" data-menu-button>
+                <svg width="20" height="20" aria-label="Переключатель мобильного меню" aria-expanded="false"
+                    aria-controls="menu-container" aria-controls="menu-container">
+                    <use class="cross-icon" href="./img/sprite.svg#cross"></use>
+                    <use class="menu-icon" href="./img/sprite.svg#menu"></use>
+                </svg>
+            </button>
+        </nav> -->
+
+
+        <!-- Залогиненный хедер -->
+
+        <nav class="navigation">
+            <a href="./index.html" class="link">
+                <svg class="logo">
+                    <use href="./img/sprite.svg#logo"></use>
+                </svg>
+            </a>
+
+            <ul class="mobile-menu" id="mobile-menu" data-menu>
+                <li class="item">
+                    <a href="./index.html" class="link current">Home</a>
+                </li>
+                <li class="item">
+                    <a href="./materials.html" class="link">Materials</a>
+                </li>
+                <li class="item">
+                    <a href="./contacts.html" class="link ">Contacts</a>
+                </li>
+                <li class="item"><svg class="exit" width="16" height="16">
+                        <use href="./img/sprite.svg#exit"></use>
+                    </svg></li>
+
+            </ul>
+
+            <button type="button" class="menu-button" data-menu-button>
+                <svg width="20" height="20" aria-label="Переключатель мобильного меню" aria-expanded="false"
+                    aria-controls="menu-container">
+                    <use class="cross-icon" href="./img/sprite.svg#cross"></use>
+                    <use class="menu-icon" href="./img/sprite.svg#menu"></use>
+                </svg>
+            </button>
+        </nav>
+        <button class="name-button" type="button">D</button>
+    </header>
+
+    <main>
+        <!-- Home-register-login -->
+        <!-- <section class="home-login container">
+            <div class="pro-test">
+                <h1 class="home-login-title">Pro Test</h1>
+                <p class="home-text"><span class="home-accent">[</span> We will help you find weak points in knowledge
+                    so
+                    that you can strengthen it. We will show
+                    you
+                    what is relevant to know for a <span class="home-accent">QA Engineer</span> and will try to make the
+                    learning process more
+                    diverse_ <span class="home-accent">]</span></p>
+            </div>
+
+            <div class="form-register">
+                <p class="authorize-title">You can use your Google Account to authorize:</p>
+                <button class="button-google" type="button"></button>
+                <p class="authorize-title">Or login to our app using e-mail and password:</p>
+                <form action="" class="form-login">
+                    <div class="form-field">
+                        <input class="form-input " type="email" name="mail" id="mail" autocomplete="on"
+                            placeholder="E-mail">
+                        <label class="form-label form-email" for="mail"></label>
+                    </div>
+                    <div class="form-field">
+                        <input class="form-input " type="password" name="password" id="password"
+                            placeholder="Password" />
+                        <label class="form-label form-password" for="password"></label>
+                    </div>
+                </form>
+                <div class="sign-buttons">
+                    <button type="submit" class="button signin">Sign in</button>
+                    <button type="submit" class="button button-active">Sign up</button>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Home -->
+        <section class="home container">
+            <h4 class="home-title">“Regression testing. What is it?
+                If the system compiles, that's good, if it boots, that's great!”</h4>
+            <hr class="line" width="130" />
+            <p class="home-name">Linus Torvalds</p>
+            <p class="home-company">Linux kernel creator, hacker, 1969</p>
+            <button type="button" class="home-button">QA technical training<svg class="arrow" width="24" height="24">
+                    <use href="./img/sprite.svg#arrow"></use>
+                </svg></button>
+            <button type="button" class="home-button">Testing theory<svg class="arrow" width="24" height="24">
+                    <use href="./img/sprite.svg#arrow"></use>
+                </svg></button>
+        </section>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-text"><span class="copyright"> © </span>2021 | All Rights Reserved | Developed with
+                <svg class="footer-icon" width="17" height="17">
+                    <use href="./img/sprite.svg#heart"></use>
+                </svg> by <a href="./contacts.html" class="footer-contacts">GoIT Students</a>
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
