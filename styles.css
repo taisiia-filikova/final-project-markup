@@ -40,7 +40,8 @@ a {
   padding: 0;
 }
 
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
 }
@@ -821,6 +822,110 @@ margin-top: 15px;
 
 
 
+
+
+
+
+
+/* Materials */
+.materials{
+background-color: var(--primaryWhiteColor);
+background-repeat: no-repeat;
+background-position: right;
+background-size: contain;
+}
+.materials-title{
+font-weight: 700;
+letter-spacing: 0.02em;
+}
+.materials-line{
+display: inline-block;
+margin-top: 0;
+border: none;
+background-color:#E2E3E5;
+height: 1px;
+text-align: left;
+}
+.materials-list .item{
+list-style-type: decimal;
+font-weight: 500;
+letter-spacing: 0.02em;
+}
+
+.materials-list .text{
+font-weight: 500;
+letter-spacing: 0.02em;
+}
+
+.materials-list .link{
+text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+.materials{
+padding: 40px 20px;
+background-image: url(./img/cactus_mob.jpg);
+}
+.materials-title{
+font-size: 18px;
+line-height: 1.2;
+margin-bottom: 10px;
+}
+.materials-line{
+width: 150px;
+margin-bottom: 10px;
+}
+.materials-list{
+padding-right: 95px;
+padding-left: 13px;
+margin-bottom: 36px;
+}
+.materials-list .item{
+font-size: 10px;
+line-height: 1.6;
+}
+
+.materials-list .text{
+font-size: 10px;
+line-height: 1.6;
+}
+}
+
+@media screen and (min-width: 768px) {
+.materials{
+padding: 119px 115px;
+background-image: url(./img/cactus_tabl.jpg);
+}
+.materials-title{
+font-size: 22px;
+line-height: 1.36;
+margin-bottom: 25px;
+}
+.materials-line{
+width: 322px;
+margin-bottom: 25px;
+}
+.materials-list{
+padding-right: 95px;
+padding-left: 13px;
+margin-bottom: 45px;
+
+}
+.materials-list .item{
+font-size: 10px;
+line-height: 1.6;
+}
+
+.materials-list .text{
+font-size: 10px;
+line-height: 1.6;
+}
+ 
+}
+
+@media screen and (min-width: 1280px) {
+  
+}
 
 
 /* Footer */
