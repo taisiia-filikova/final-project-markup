@@ -1008,30 +1008,30 @@ margin-top: 15px;
 
 @media screen and (min-width: 1280px) {
   .team {
-    padding: 41px 22px 76px 22px;
+    padding: 40px 20px 65px 20px;
   }
-  .teamTitle {
-    font-size: 22px;
-    line-height: 1.36;
-    margin-bottom: 22px;
-  }
-  .teamLine {
-    width: 130px;
-    margin-bottom: 39px;
-  }
+
   .teamItem {
-    width: 352px;
+    width: 232px;
   }
   .personPhoto {
-    width: 352px;
+    width: 232px;
     height: 244px;
   }
   .aboutPerson {
-    padding: 21px 30px;
+    padding: 21px 29px;
+    height: 162px;
+  }
+  .personName {
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1.3;
   }
   .personText {
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 12px;
+    line-height: 1.3;
   }
 }
 
