@@ -1,0 +1,182 @@
+/* Container */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
+
+/* Home */
+.home {
+  text-align: center;
+}
+
+.homeTitle {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.homeLine {
+  margin-top: 0;
+  border: none;
+  background-color: #e2e3e5;
+  height: 1px;
+}
+
+.homeName {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.homeCompany {
+  color: var(--textColor);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.homeButton {
+  color: var(--primaryWhiteColor);
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 0.02em;
+  border: none;
+  filter: drop-shadow(0px 4px 15px rgba(18, 29, 46, 0.15));
+
+  cursor: pointer;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.homeButton:focus,
+.homeButton:hover {
+  transform: scale(1.02);
+}
+
+.training {
+  background-color: var(--blueBGColor);
+}
+
+.theory {
+  background-color: var(--OrangeColor);
+}
+
+.arrow {
+  fill: var(--primaryWhiteColor);
+}
+
+@media screen and (max-width: 767px) {
+  .home {
+    padding: 30px 20px 33px 20px;
+  }
+
+  .homeTitle {
+    font-size: 12px;
+    line-height: 1.67;
+    padding-bottom: 20px;
+  }
+
+  .homeLine {
+    width: 130px;
+    margin-bottom: 20px;
+  }
+
+  .homeName {
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 1.17;
+  }
+
+  .homeCompany {
+    margin-bottom: 40px;
+    font-size: 10px;
+    line-height: 1.2;
+  }
+
+  .homeButton {
+    width: 280px;
+    height: 212px;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .training {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    padding: 80px 58px 112px 58px;
+  }
+
+  .homeTitle {
+    font-size: 22px;
+    line-height: 1.36;
+    padding-bottom: 30px;
+  }
+
+  .homeLine {
+    width: 322px;
+    margin-bottom: 13px;
+  }
+
+  .homeName {
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 2;
+  }
+
+  .homeCompany {
+    margin-bottom: 60px;
+    font-size: 14px;
+    line-height: 2.57;
+  }
+
+  .homeButton {
+    width: 400px;
+    height: 212px;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .training {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .home {
+    padding: 122px 230px 114px 230px;
+  }
+
+  .homeCompany {
+    margin-bottom: 84px;
+  }
+
+  .homeButton {
+    width: 397px;
+    margin: 0;
+  }
+
+  .training {
+    margin-right: 20px;
+  }
+}
