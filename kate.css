@@ -1,0 +1,135 @@
+/* Container */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
+
+/* Materials */
+.materials {
+  background-color: var(--primaryWhiteColor);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.materialsTitle {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.materialsLine {
+  display: inline-block;
+  margin-top: 0;
+  border: none;
+  background-color: #e2e3e5;
+  height: 1px;
+  text-align: left;
+}
+.literature {
+  margin-bottom: 36px;
+}
+.materialsList .item {
+  list-style-type: decimal;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.materialsList .text {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.materialsList .link {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+  .materials {
+    padding: 40px 20px;
+    background-image: url(./img/cactus_mob.jpg);
+  }
+  .materialsTitle {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .materialsLine {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  .materialsList {
+    padding-right: 95px;
+    padding-left: 13px;
+  }
+  .materialsList .item {
+    font-size: 10px;
+    line-height: 1.6;
+  }
+
+  .materialsList .text {
+    font-size: 10px;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .materials {
+    padding: 119px 115px 472px 115px;
+    background-image: url(./img/cactus_tabl.jpg);
+    background-size: cover;
+  }
+  .materialsTitle {
+    font-size: 22px;
+    line-height: 1.36;
+    margin-bottom: 22px;
+  }
+  .materialsLine {
+    width: 320px;
+    margin-bottom: 25px;
+  }
+  .materialsList {
+    padding-right: 95px;
+    padding-left: 13px;
+    margin-left: 60px;
+  }
+
+  .materialsList .item {
+    font-size: 14px;
+    line-height: 1.57;
+    padding-right: 60px;
+  }
+
+  .materialsList .text {
+    font-size: 14px;
+    line-height: 1.57;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .materials {
+    padding: 98px 190px 262px 190px;
+    background-image: url(./img/cactus_desc.jpg);
+    background-size: cover;
+  }
+
+  .materialsList .item {
+    padding-right: 420px;
+  }
+}
