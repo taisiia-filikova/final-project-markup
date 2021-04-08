@@ -786,6 +786,186 @@ margin-top: 15px;
 @media screen and (min-width: 1280px) {
 }
 
+/* Results */
+
+.results {
+  text-align: center;
+}
+.resultsTitle {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.resultsTheory {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.resultsLine {
+  display: inline-block;
+  margin-top: 0;
+  border: none;
+  background-color: #e2e3e5;
+  height: 1px;
+}
+.resultsDiagram {
+  display: inline-block;
+  text-align: center;
+}
+.questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.questionsText {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.questionsSeparator {
+  display: inline-block;
+  border-right: solid 1px#e2e3e5;
+}
+.numbers {
+  font-weight: 700;
+}
+.cat {
+  display: inline-block;
+  text-align: center;
+}
+.resultsVerdict {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.resultsAdvice {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.resultsButton {
+  width: 190px;
+  height: 48px;
+
+  color: var(--primaryWhiteColor);
+  background-color: var(--OrangeColor);
+  border: none;
+
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.2;
+
+  cursor: pointer;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.resultsButton:focus,
+.resultsButton:hover {
+  transform: scale(1.02);
+}
+
+@media screen and (max-width: 767px) {
+  .results {
+    padding: 30px 20px 40px 20px;
+  }
+  .resultsTitle {
+    font-size: 12px;
+    line-height: 2.5;
+  }
+  .resultsTheory {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .resultsLine {
+    width: 130px;
+    margin-bottom: 12px;
+  }
+  .resultsDiagram {
+    width: 156px;
+    height: 156px;
+    margin-bottom: 20px;
+  }
+  .questions {
+    margin-bottom: 17px;
+  }
+  .questionsText {
+    font-size: 9px;
+    line-height: 1.2;
+  }
+  .questionsSeparator {
+    height: 20px;
+    margin: 0 10px;
+  }
+  .cat {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 21px;
+  }
+  .resultsVerdict {
+    font-size: 16px;
+    line-height: 1.87;
+    margin-bottom: 10px;
+  }
+  .resultsAdvice {
+    font-size: 9px;
+    line-height: 1.2;
+    margin-bottom: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .results {
+    padding: 41px 59px 107px 59px;
+  }
+  .resultsTitle {
+    font-size: 22px;
+    line-height: 1.36;
+  }
+  .resultsTheory {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  .resultsLine {
+    width: 322px;
+    margin-bottom: 40px;
+  }
+  .resultsDiagram {
+    width: 285px;
+    height: 285px;
+    margin-bottom: 30px;
+  }
+  .questions {
+    margin-bottom: 29px;
+  }
+  .questionsText {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .questionsSeparator {
+    height: 20px;
+    margin: 0 20px;
+  }
+  .cat {
+    width: 176px;
+    height: 176px;
+    margin-bottom: 10px;
+  }
+  .resultsVerdict {
+    font-size: 22px;
+    line-height: 1.36;
+    margin-bottom: 10px;
+  }
+  .resultsAdvice {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 47px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .results {
+    padding: 40px 210px 60px 210px;
+  }
+}
+
 /* Materials */
 .materials {
   background-color: var(--primaryWhiteColor);
