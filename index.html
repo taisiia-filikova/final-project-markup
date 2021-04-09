@@ -18,17 +18,28 @@
 <body>
     <!-- Header -->
     <header class="header">
-        <!-- Незалогиненный хедер
-                <a href="./index.html" class="link">
-                    <svg class="logo">
-                        <use href="./img/sprite.svg#icon-logo"></use>
-                    </svg>
-                </a>
-                <ul>
-                    <li class="item">
-                        <a href="./contacts.html" class="link">Contacts</a>
-                    </li>
-                </ul> -->
+        <!-- Незалогиненный хедер -->
+        <!-- <nav class="navigation">
+            <a href="./index.html" class="link">
+                <svg class="logo">
+                    <use href="./img/sprite.svg#logo"></use>
+                </svg>
+            </a>
+
+            <ul class="mobile-menu is-open" id="mobile-menu" data-menu>
+                <li class="item">
+                    <a href="./contacts.html" class="link ">Contacts</a>
+                </li>
+            </ul>
+
+            <button type="button" class="menu-button is-open" data-menu-button>
+                <svg width="20" height="20" aria-label="Переключатель мобильного меню" aria-expanded="false"
+                    aria-controls="menu-container" aria-controls="menu-container">
+                    <use class="cross-icon" href="./img/sprite.svg#cross"></use>
+                    <use class="menu-icon" href="./img/sprite.svg#menu"></use>
+                </svg>
+            </button>
+        </nav> -->
 
 
         <!-- Залогиненный хедер -->
@@ -40,7 +51,7 @@
                 </svg>
             </a>
 
-            <ul class="mobile-menu is-open" id="mobile-menu" data-menu>
+            <ul class="mobile-menu" id="mobile-menu" data-menu>
                 <li class="item">
                     <a href="./index.html" class="link current">Home</a>
                 </li>
@@ -53,11 +64,12 @@
                 <li class="item"><svg class="exit" width="16" height="16">
                         <use href="./img/sprite.svg#exit"></use>
                     </svg></li>
+
             </ul>
 
-            <button type="button" class="menu-button is-open" data-menu-button>
+            <button type="button" class="menu-button" data-menu-button>
                 <svg width="20" height="20" aria-label="Переключатель мобильного меню" aria-expanded="false"
-                    aria-controls="menu-container" aria-controls="menu-container">
+                    aria-controls="menu-container">
                     <use class="cross-icon" href="./img/sprite.svg#cross"></use>
                     <use class="menu-icon" href="./img/sprite.svg#menu"></use>
                 </svg>
@@ -67,196 +79,273 @@
     </header>
 
     <main>
+        <!-- Home-register-login -->
+        <!-- <section class="homeLogin container">
+            <div class="proTest">
+                <h1 class="homeLoginTitle">Pro Test</h1>
+                <p class="homeText"><span class="homeAccent">[</span> We will help you find weak points in knowledge
+                    so
+                    that you can strengthen it. We will show
+                    you
+                    what is relevant to know for a <span class="homeAccent">QA Engineer</span> and will try to make the
+                    learning process more
+                    diverse_ <span class="homeAccent">]</span></p>
+            </div>
 
-        <!-- Home-login -->
-        <!-- <section class="container">
-            <h1>Pro Test</h1>
-            <p><span>[</span> We will help you find weak points in knowledge so that you can strengthen it. We will show
-                you
-                what is relevant to know for a <span>QA Engineer</span> and will try to make the learning process more
-                diverse_ <span>]</span></p>
-
-            <div class="google">
-                <p>You can use your Google Account to authorize:</p>
-                <button type="button"></button>
-                <p>Or login to our app using e-mail and password:</p>
-                <form action="" class="form-login">
-                    <div class="form-field">
-                        <input class="form-input" type="email" name="mail" id="mail" autocomplete="on" placeholder="">
-                        <label class="form-label" for="mail">E-mail</label>
+            <div class="formRegister">
+                <p class="authorizeTitle">You can use your Google Account to authorize:</p>
+                <button class="buttonGoogle" type="button"></button>
+                <p class="authorizeTitle">Or login to our app using e-mail and password:</p>
+                <form action="" class="formLogin">
+                    <div class="formField">
+                        <input class="formInput " type="email" name="mail" id="mail" autocomplete="on"
+                            placeholder="E-mail">
+                        <label class="formLabel formEmail" for="mail"></label>
                     </div>
-                    <div class="form-field">
-                        <input class="form-input" type="password" name="password" id="password" />
-                        <label class="comment-label" for="password">Password</label>
+                    <div class="formField">
+                        <input class="formInput " type="password" name="password" id="password"
+                            placeholder="Password" />
+                        <label class="formLabel formPassword" for="password"></label>
                     </div>
                 </form>
-                <button type="submit">Sign in</button>
-                <button type="submit">Sign up</button>
+                <div class="signButtons">
+                    <button type="submit" class="button signin">Sign in</button>
+                    <button type="submit" class="button buttonActive">Sign up</button>
+                </div>
             </div>
         </section> -->
 
         <!-- Home -->
-        <!-- <section class="container">
-            <h4>“Regression testing. What is it?
+        <!-- <section class="home container">
+            <h4 class="homeTitle">“Regression testing. What is it?
                 If the system compiles, that's good, if it boots, that's great!”</h4>
-            <p>___________________</p>
-            <p>Linus Torvalds</p>
-            <p>Linux kernel creator, hacker, 1969</p>
-            <button type="button">QA technical training<svg class="arrow">
+            <hr class="homeLine" />
+            <p class="homeName">Linus Torvalds</p>
+            <p class="homeCompany">Linux kernel creator, hacker, 1969</p>
+            <button type="button" class="homeButton training">QA technical<br>training<br><svg class="arrow" width="24"
+                    height="24">
                     <use href="./img/sprite.svg#arrow"></use>
                 </svg></button>
-            <button type="button">Testing theory<svg class="arrow">
+            <button type="button" class="homeButton theory">Testing<br>theory<br><svg class="arrow" width="24"
+                    height="24">
                     <use href="./img/sprite.svg#arrow"></use>
                 </svg></button>
         </section> -->
 
         <!-- Testing -->
-        <section class="container">
-            <p>[ Testing theory_ ]</p>
-            <button type="button">Finish test</button>
-            <div>
-                <p>Question <span>3</span>/ 12</p>
-                <h4>What is regression testing?</h4>
-                <p>___________________</p>
-                <form action="handler.php">
-                    <p><input name="dzen" type="radio" value="nedzen">This is testing of the main functionality of the
-                        application</p>
-                    <p><input name="dzen" type="radio" value="nedzen">Testing a single function</p>
-                    <p><input name="dzen" type="radio" value="nedzen">Requirements testing</p>
-                    <p><input name="dzen" type="radio" value="dzen">Tests on already tested areas of the application</p>
-                    <p><input name="dzen" type="radio" value="nedzen">One of the types of testing aimed at checking the
-                        conformity of the functional requirements of the software to its real characteristics</p>
-                    <p><input name="dzen" type="radio" value="pdzen" checked>I don’t know</p>
-                </form>
+        <section class="testing container">
+            <div class="testingHeader">
+                <p class="testingTheory">[ Testing<br>theory_ ]</p>
+                <button type="button" class="testFinish">Finish test</button>
             </div>
-            <button type="button">Previous question<svg class="arrow-left">
-                    <use href="./img/sprite.svg#icon-arrow-left"></use>
+            <div class="testingField">
+                <p class="testingQuestion">Question <span class="testingAnswers">3</span>/ 12</p>
+                <h4 class="testingQuestionText">What is regression testing?</h4>
+                <hr class="testingLine" />
+                <ul action="" class="testingForm">
+                    <li class="item"><label class="testingLabel"><input class="testingInput" type="radio" name="test"
+                                value="" checked />
+                            This is testing of the main functionality of the application</label></li><br>
+                    <li class="item"><label class="testingLabel"><input class="testingInput" type="radio" name="test"
+                                value="" />
+                            <span class="answerText">Testing a single function</span></label></li><br>
+                    <li class="item"><label class="testingLabel"><input class="testingInput" type="radio" name="test"
+                                value="" />
+                            Requirements testing</label></li><br>
+                    <li class="item"><label class="testingLabel"><input class="testingInput" type="radio" name="test"
+                                value="" />Tests
+                            on already tested areas of the application</label></li><br>
+                    <li class="item"><label class="testingLabel"><input class="testingInput" type="radio" name="test"
+                                value="" />
+                            <span class="answerText">One of the types of testing aimed at checking the
+                                conformity of the functional requirements of the software to its real
+                                characteristics</span></label></li><br>
+                    <li class="item"><label class="testingLabel"><input class="testingInput" type="radio" name="test"
+                                value="" />
+                            I don’t know</label></li><br>
+                </ul>
+            </div>
+            <button type="button" class="testingPrevious">Previous question<svg class="arrowLeft" width="24"
+                    height="24">
+                    <use href="./img/sprite.svg#arrow-left"></use>
                 </svg></button>
-            <button type="button">Next question<svg class="arrow-right">
-                    <use href="./img/sprite.svg#icon-arrow-right"></use>
+            <button type="button" class="testingNext">Next question<svg class="arrowRight" width="24" height="24">
+                    <use href="./img/sprite.svg#arrow-right"></use>
                 </svg></button>
         </section>
 
         <!-- Results -->
-        <section class="container">
-            <h4>Results</h4>
-            <p>[ Testing theory_]</p>
-            <p>___________________</p>
-            <img src="./img/diagram.jpg" width="285" height="285">
-            <div>
-                <p>Correct answers - <span>9</span></p>
-                <p>Total questions - <span>12</span></p>
+        <!-- <section class="results container">
+            <h4 class="resultsTitle">Results</h4>
+            <p class="resultsTheory">[ Testing theory_]</p>
+            <hr class="resultsLine" /><br>
+            <img class="resultsDiagram" src="./img/diagram.jpg" width="285" height="285">
+            <div class="questions">
+                <p class="questionsText">Correct answers - <span class="numbers">9</span></p>
+                <span class="questionsSeparator"></span>
+                <p class="questionsText">Total questions - <span class="numbers">12</span></p>
             </div>
-            <img src="./img/cat.png" alt="Cat" width="176" height="176">
-            <h3>Not bad!</h3>
-            <p>But you still need to learn some materials.</p>
-            <button type="button">Try again</button>
-        </section>
+            <img class="cat" src="./img/cat.png" alt="Cat with heart" width="176" height="176">
+            <h3 class="resultsVerdict">Not bad!</h3>
+            <p class="resultsAdvice">But you still need to learn some materials.</p>
+            <button class="resultsButton" type="button">Try again</button>
+        </section> -->
 
 
         <!-- Materials -->
-        <!-- <section class="container">
-            <h2>Useful literature</h2>
-            <p>___________________</p>
-            <ul>
-                <li>1. Testing dot.com Savin.</li>
-                <li>2. A mental hospital in the hands of patients.</li>
-                <li>3. Scrum. J. Sutherland.</li>
-            </ul>
-            <h2>Useful resources</h2>
-            <p>___________________</p>
-            <ul>
-                <li>1. dou.ua<a href="https://dou.ua/"></a></li>
-                <li>2. Habr<a href="https://habr.com/"></a></li>
-                <li>3. facebook.com/QA<a href="https://www.facebook.com/QA/"></a></li>
-                <li>4. goit.ua<a href="https://goit.ua/"></a></li>
-            </ul>
-
+        <!-- <section class="materials container">
+            <h2 class="materialsTitle">Useful literature</h2>
+            <hr class="materialsLine" />
+            <ol class="materialsList literature">
+                <li class="item">
+                    <p class="text">Testing dot.com Savin.</p>
+                </li>
+                <li class="item">
+                    <p class="text">A mental hospital in the hands of patients.</p>
+                </li>
+                <li class="item">
+                    <p class="text">Scrum. J. Sutherland.</p>
+                </li>
+            </ol>
+            <h2 class="materialsTitle">Useful resources</h2>
+            <hr class="materialsLine" />
+            <ol start="1" class="materialsList">
+                <li class="item">
+                    <p class="text link">dou.ua<a href="https://dou.ua/"></a></p>
+                </li>
+                <li class="item">
+                    <p class="text link">Habr<a href="https://habr.com/"></a>
+                </li>
+                <li class="item">
+                    <p class="text link">facebook.com/QA<a href="https://www.facebook.com/QA/"></a></p>
+                </li>
+                <li class="item">
+                    <p class="text link">goit.ua<a href="https://goit.ua/"></a></p>
+                </li>
+            </ol>
         </section> -->
 
         <!-- Contacts -->
-        <!-- <section class="container">
-            <h4>Our team</h4>
-            <p>___________________</p>
-            <div>
-                <ul>
-                    <li>
-                        <img src="./img/alex.jpg" alt="Alex">
-                        <p>Alex Zhyvotenko</p>
-                        <p>Front-End Developer</p>
-                        <p>Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
-                    </li>
-                    <li>
-                        <img src="./img/lilia.jpg" alt="Lilia">
-                        <p>Lilia Novikova</p>
-                        <p>Front-End Developer</p>
-                        <p>Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
-                    </li>
-                    <li>
-                        <img src="./img/anton.jpg" alt="Anton">
-                        <p>Ivan Vitenko</p>
-                        <p>Front-End Developer</p>
-                        <p>Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
-                    </li>
-                    <li>
-                    <li>
-                        <img src="./img/ekaterina.jpg" alt="Ekaterina">
-                        <p>Fedir Havrylyak</p>
-                        <p>Front-End Developer</p>
-                        <p>Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
-                    </li>
-                    <li>
-                        <img src="./img/ivan.jpg" alt="Ivan">
-                        <p>Ivan Vitenko</p>
-                        <p>Front-End Developer</p>
-                        <p>Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
-                    </li>
-                    <li>
-                        <img src="./img/taisia.jpg" alt="Taisiia">
-                        <p>Taisiia Morhunska</p>
-                        <p>Front-End Developer</p>
-                        <p>Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
-                    </li>
-                    <li>
-                        <img src="./img/oleksii.jpg" alt="Olexii">
-                        <p>Alex Zhyvotenko</p>
-                        <p>Front-End Developer</p>
-                        <p>Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
-                    </li>
-                    <li>
-                        <img src="./img/daria.jpg" alt="Daria">
-                        <p>Lilia Novikova</p>
-                        <p>Front-End Developer</p>
-                        <p>Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
-                    </li>
-                    <li>
-                        <img src="./img/fedir.jpg" alt="Fedir">
-                        <p>Fedir Havrylyak</p>
-                        <p>Front-End Developer</p>
-                        <p>Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
-                    </li>
-                    <li>
-                        <img src="./img/oleksandr.jpg" alt="Oleksandr">
-                        <p>Taisiia Morhunska</p>
-                        <p>Front-End Developer</p>
-                        <p>Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
-                    </li>
-                </ul>
-            </div>
+        <!-- <section class="team container">
+            <h4 class="teamTitle">Our team</h4>
+            <hr class="teamLine" />
+            <ul class="teamList">
+                <li class="teamItem">
+                    <img src="./img/alex.jpg" alt="Alex" class="personPhoto">
+                    <div class="aboutPerson">
+                        <p class="personName">Alex Zhyvotenko</p>
+                        <p class="personPosition">Front-End Developer</p>
+                        <p class="personText">Lorem Ipsum has been the standard "fish" for Latin texts since the early
+                            16th
+                            century.</p>
+                    </div>
+                </li>
+                <li class="teamItem">
+                    <img src="./img/lilia.jpg" alt="Lilia" class="personPhoto">
+                    <div class="aboutPerson">
+                        <p class="personName">Lilia Novikova</p>
+                        <p class="personPosition">Front-End Developer</p>
+                        <p class="personText">Lorem Ipsum has been the standard "fish" for Latin texts since the early
+                            16th
+                            century.</p>
+                    </div>
+                </li>
+                <li class="teamItem">
+                    <img src="./img/oleksii.jpg" alt="Olexii" class="personPhoto">
+                    <div class="aboutPerson">
+                        <p class="personName">Olexii Fedorkan</p>
+                        <p class="personPosition">Front-End Developer</p>
+                        <p class="personText">Lorem Ipsum has been the standard "fish" for Latin texts since the early
+                            16th
+                            century.</p>
+                    </div>
+                </li>
+                <li class="teamItem">
+                    <img src="./img/ekaterina.jpg" alt="Ekaterina" class="personPhoto">
+                    <div class="aboutPerson">
+                        <p class="personName">Ekaterina Kruichkovskaya</p>
+                        <p class="personPosition">Front-End Developer</p>
+                        <p class="personText">Lorem Ipsum has been the standard "fish" for Latin texts since the early
+                            16th
+                            century.</p>
+                    </div>
+                </li>
+                <li class="teamItem">
+                    <img src="./img/ivan.jpg" alt="Ivan" class="personPhoto">
+                    <div class="aboutPerson">
+                        <p class="personName">Ivan Vitenko</p>
+                        <p class="personPosition">Front-End Developer</p>
+                        <p class="personText">Lorem Ipsum has been the standard "fish" for Latin texts since the early
+                            16th
+                            century.</p>
+                    </div>
+                </li>
+                <li class="teamItem">
+                    <img src="./img/taisia.jpg" alt="Taisiia" class="personPhoto">
+                    <div class="aboutPerson">
+                        <p class="personName">Taisiia Morhunska</p>
+                        <p class="personPosition">Front-End Developer</p>
+                        <p class="personText">Lorem Ipsum has been the standard "fish" for Latin texts since the early
+                            16th
+                            century.</p>
+                    </div>
+                </li>
+                <li class="teamItem">
+                    <img src="./img/anton.jpg" alt="Anton" class="personPhoto">
+                    <div class="aboutPerson">
+                        <p class="personName">Anton Lazurko</p>
+                        <p class="personPosition">Front-End Developer</p>
+                        <p class="personText">Lorem Ipsum has been the standard "fish" for Latin texts since the early
+                            16th
+                            century.</p>
+                    </div>
+                </li>
+                <li class="teamItem">
+                    <img src="./img/daria.jpg" alt="Daria" class="personPhoto">
+                    <div class="aboutPerson">
+                        <p class="personName">Dasha Voitekhovskaya</p>
+                        <p class="personPosition">Front-End Developer</p>
+                        <p class="personText">Lorem Ipsum has been the standard "fish" for Latin texts since the early
+                            16th
+                            century.</p>
+                    </div>
+                </li>
+                <li class="teamItem">
+                    <img src="./img/fedir.jpg" alt="Fedir" class="personPhoto">
+                    <div class="aboutPerson">
+                        <p class="personName">Fedir Havrylyak</p>
+                        <p class="personPosition">Front-End Developer</p>
+                        <p class="personText">Lorem Ipsum has been the standard "fish" for Latin texts since the early
+                            16th
+                            century.</p>
+                    </div>
+                </li>
+                <li class="teamItem">
+                    <img src="./img/oleksandr.jpg" alt="Oleksandr" class="personPhoto">
+                    <div class="aboutPerson">
+                        <p class="personName">Oleksandr Bezvuglyak</p>
+                        <p class="personPosition">Front-End Developer</p>
+                        <p class="personText">Lorem Ipsum has been the standard "fish" for Latin texts since the early
+                            16th
+                            century.</p>
+                    </div>
+                </li>
+            </ul>
         </section> -->
-
     </main>
-    <!-- <footer class="footer">
+
+
+    <!-- Footer -->
+    <footer class="footer">
         <div class="footer-container">
-            <p class="footer-text">© 2021 | All Rights Reserved | Developed with</p>
-            <svg class="footer-icon" width="16" height="16">
-                <use href="./img/sprite.svg#icon-heart"></use>
-            </svg>
-            <p class="footer-text">by
-                <a href="./contacts.html" class="footer-contacts">GoIT Students</a>
+            <p class="footer-text"><span class="copyright"> © </span>2021 | All Rights Reserved | Developed with
+                <svg class="footer-icon" width="17" height="17">
+                    <use href="./img/sprite.svg#heart"></use>
+                </svg> by <a href="./contacts.html" class="footer-contacts">GoIT Students</a>
             </p>
         </div>
-    </footer> -->
+    </footer>
+
 
     <script src="./js/menu.js"></script>
 </body>
