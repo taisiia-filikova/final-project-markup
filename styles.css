@@ -586,6 +586,7 @@ img {
   .homeButton {
     width: 280px;
     height: 212px;
+    padding: 60px 51px;
     font-size: 24px;
     line-height: 1.2;
   }
@@ -626,6 +627,7 @@ img {
   .homeButton {
     width: 400px;
     height: 212px;
+    padding: 60px 13px;
     font-size: 30px;
     line-height: 1.2;
   }
