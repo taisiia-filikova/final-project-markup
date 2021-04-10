@@ -663,6 +663,7 @@ img {
 .testingHeader {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .testingTheory {
@@ -691,6 +692,7 @@ img {
 .testingField {
   background-color: var(--primaryWhiteColor);
   box-shadow: var(--boxShadowModal);
+  margin-bottom: 20px;
 }
 .testingQuestion {
   font-weight: 400;
@@ -721,9 +723,13 @@ img {
 .answerText {
   display: inline-block;
   vertical-align: top;
-
   font-weight: 500;
   letter-spacing: 0.02em;
+  margin-left: 20px;
+}
+
+.idontknow {
+  margin-top: 20px;
 }
 
 .testingInput {
@@ -792,8 +798,6 @@ img {
   }
 
   .testingTheory {
-    margin-top: 6px;
-    margin-right: 85px;
     font-size: 14px;
     line-height: 1.2;
   }
@@ -806,14 +810,8 @@ img {
     line-height: 1.2;
   }
 
-  .testFinish:focus,
-  .testFinish:hover {
-    transform: scale(1.02);
-  }
-
   .testingField {
     padding: 40px 20px 60px 20px;
-    margin-bottom: 20px;
   }
   .testingQuestion {
     font-size: 10px;
@@ -834,7 +832,6 @@ img {
 
   .answerText {
     width: 202px;
-    margin-left: 20px;
     margin-top: 6px;
 
     font-size: 10px;
@@ -854,9 +851,101 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .testing {
+    padding: 42px 58px 271px 58px;
+  }
+
+  .testingHeader {
+    margin-bottom: 20px;
+  }
+
+  .testingTheory {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+
+  .testFinish {
+    width: 190px;
+    padding: 17px 35px;
+
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .testingField {
+    padding: 50px 37px 58px 57px;
+  }
+  .testingQuestion {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+  }
+
+  .testingQuestionText {
+    font-size: 22px;
+    line-height: 1.36;
+    margin-bottom: 30px;
+  }
+
+  .testingLine {
+    width: 322px;
+    margin-bottom: 30px;
+  }
+
+  .answerText {
+    width: 516px;
+    margin-top: 1px;
+
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .questionButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 210px;
+    padding: 12px 20px;
+    font-size: 12px;
+    line-height: 1.25;
+  }
+
+  .buttonText {
+    display: inline-block;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .testing {
+    padding: 40px 230px 97px 230px;
+  }
+
+  .testingHeader {
+    margin-bottom: 28px;
+  }
+
+  .testingField {
+    padding: 50px 86px 58px 86px;
+  }
+
+  .answerText {
+    width: 610px;
+    margin-top: 1px;
+  }
+
+  .questionButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 210px;
+    padding: 12px 20px;
+    font-size: 12px;
+    line-height: 1.25;
+  }
+
+  .buttonText {
+    display: inline-block;
+  }
 }
 
 /* Results */
