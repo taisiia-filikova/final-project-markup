@@ -659,36 +659,24 @@ img {
 }
 
 /* Testing */
-.testing {
-  padding: 24px 20px 20px 20px;
-}
 
 .testingHeader {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
 }
 
 .testingTheory {
-  margin-top: 6px;
-  margin-right: 85px;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
 .testFinish {
-  width: 130px;
   height: 48px;
-  padding: 17px 14px;
   color: var(--primaryWhiteColor);
   background-color: var(--OrangeColor);
   border: none;
 
   font-weight: 500;
-  font-size: 10px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
 
   cursor: pointer;
@@ -701,10 +689,8 @@ img {
 }
 
 .testingField {
-  padding: 40px 20px 60px 20px;
   background-color: var(--primaryWhiteColor);
   box-shadow: var(--boxShadowModal);
-  margin-bottom: 20px;
 }
 .testingQuestion {
   font-weight: 400;
@@ -712,9 +698,6 @@ img {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--textColor);
-  font-size: 10px;
-  line-height: 1.2;
-  margin-bottom: 20px;
 }
 
 .testingAnswers {
@@ -726,9 +709,6 @@ img {
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.02em;
-  margin-bottom: 20px;
-  font-size: 12px;
-  line-height: 1.5;
 }
 
 .testingLine {
@@ -736,31 +716,14 @@ img {
   border: none;
   background-color: #e2e3e5;
   height: 1px;
-  width: 130px;
-  margin-bottom: 28px;
 }
-
-/* .testingLabel {
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  float: right;
-  width: 205px;
-} */
 
 .answerText {
   display: inline-block;
-  width: 200px;
   vertical-align: top;
-  margin-left: 20px;
 
   font-weight: 500;
-  font-size: 10px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 6px;
 }
 
 .testingInput {
@@ -798,15 +761,12 @@ img {
 }
 
 .questionButton {
-  width: 55px;
   height: 34px;
   color: var(--primaryBlackColor);
   background-color: var(--primaryWhiteColor);
   border: none;
 
   font-weight: 500;
-  font-size: 10px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
 
   cursor: pointer;
@@ -822,15 +782,75 @@ img {
   transform: scale(1.02);
 }
 
-.buttonText {
-  display: none;
-}
-.arrowLeft {
-}
-.arrowRight {
-}
-
 @media screen and (max-width: 767px) {
+  .testing {
+    padding: 24px 20px 20px 20px;
+  }
+
+  .testingHeader {
+    margin-bottom: 20px;
+  }
+
+  .testingTheory {
+    margin-top: 6px;
+    margin-right: 85px;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .testFinish {
+    width: 130px;
+    padding: 17px 14px;
+
+    font-size: 10px;
+    line-height: 1.2;
+  }
+
+  .testFinish:focus,
+  .testFinish:hover {
+    transform: scale(1.02);
+  }
+
+  .testingField {
+    padding: 40px 20px 60px 20px;
+    margin-bottom: 20px;
+  }
+  .testingQuestion {
+    font-size: 10px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  .testingQuestionText {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .testingLine {
+    width: 130px;
+    margin-bottom: 28px;
+  }
+
+  .answerText {
+    width: 202px;
+    margin-left: 20px;
+    margin-top: 6px;
+
+    font-size: 10px;
+    line-height: 1.2;
+  }
+
+  .questionButton {
+    width: 55px;
+    padding: 5px 15px;
+    font-size: 10px;
+    line-height: 1.2;
+  }
+
+  .buttonText {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
