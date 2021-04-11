@@ -1,0 +1,155 @@
+/* <div class="onePersonContainer container">
+            <div class="onePerson">
+                <img src="./img/fedir.jpg" alt="Fedir" class="onePersonPhoto">
+                <div class="aboutOnePerson">
+                    <p class="onePersonName">Fedir Havrylyak</p>
+                    <p class="onePersonPosition">Front-End Developer</p>
+                    <p class="onePersonText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
+                        aliquam nobis doloremque cupiditate ut a amet accusantium excepturi maxime provident debitis
+                        laudantium consequatur, nulla corrupti quia ullam tempore dolor animi fugiat, vero illo!
+                        Amet explicabo nam dicta excepturi in neque quidem! Magnam inventore obcaecati dolorem! Ad
+                        velit minus sint consequatur.</p>
+                </div>
+            </div>
+        </div> */
+
+/* Container */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
+
+/* OnePerson */
+
+.onePersonPhoto {
+  object-fit: cover;
+}
+.aboutOnePerson {
+  text-align: left;
+  background-color: var(--primaryWhiteColor);
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.05));
+}
+.onePersonName {
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.onePersonPosition {
+  color: var(--textColor);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+.onePersonText {
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 767px) {
+  .onePersonContainer {
+    width: 280px;
+    padding: 40px 0px;
+  }
+  .onePersonPhoto {
+    width: 280px;
+    height: 244px;
+  }
+  .aboutOnePerson {
+    padding: 20px 20px 22px 20px;
+  }
+  .onePersonName {
+    margin-bottom: 6px;
+    font-size: 12px;
+    line-height: 1;
+  }
+  .onePersonPosition {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 1;
+  }
+  .onePersonText {
+    font-size: 12px;
+    line-height: 1.3;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .onePersonContainer {
+    width: 450px;
+    padding: 80px 0px;
+  }
+  .onePersonPhoto {
+    width: 450px;
+    height: 450px;
+  }
+  .aboutOnePerson {
+    padding: 30px 40px;
+  }
+  .onePersonName {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1;
+  }
+  .onePersonPosition {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.14;
+  }
+
+  .onePersonText {
+    font-size: 16px;
+    line-height: 1.14;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .onePersonContainer {
+    width: 800px;
+    padding: 120px 0px;
+  }
+  .onePerson {
+    display: flex;
+  }
+  .onePersonPhoto {
+    width: 350px;
+    height: 450px;
+  }
+  .aboutOnePerson {
+    padding: 40px 50px;
+  }
+  .onePersonName {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1;
+  }
+  .onePersonPosition {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.14;
+  }
+
+  .onePersonText {
+    font-size: 18px;
+    line-height: 1.14;
+  }
+}
