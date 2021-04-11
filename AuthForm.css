@@ -1,0 +1,97 @@
+.formInput {
+  padding: 20px 25px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  width: 100%;
+
+  border: 1px solid #bbbbbb;
+}
+
+.formLabel {
+  display: block;
+}
+
+.signButtons {
+  display: flex;
+}
+
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: var(--primaryBlackColor);
+  background-color: var(--primaryWhiteColor);
+  border: 1px solid #bbbbbb;
+  outline: none;
+
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:focus,
+.button:hover {
+  transform: scale(1.06);
+  color: var(--primaryWhiteColor);
+  background-color: var(--OrangeColor);
+  border: 1px solid var(--OrangeColor);
+}
+
+.signin {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .formEmail {
+    margin-bottom: 20px;
+  }
+
+  .formPassword {
+    margin-bottom: 20px;
+  }
+
+  .button {
+    padding: 10px 15px;
+    width: 109px;
+    height: 60px;
+
+    font-size: 10px;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .formInput {
+    width: 423px;
+  }
+
+  .formEmail {
+    margin-bottom: 24px;
+  }
+
+  .formPassword {
+    margin-bottom: 40px;
+  }
+
+  .button {
+    display: block;
+    padding: 23px 46px;
+    margin: 0;
+
+    width: 202px;
+    height: 60px;
+
+    font-size: 15px;
+    line-height: 1.25;
+  }
+
+  .signin {
+    margin-right: 20px;
+  }
+}
