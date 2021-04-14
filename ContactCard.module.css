@@ -27,13 +27,27 @@
 
 /* OnePerson */
 
+.onePerson {
+  border: solid 1px #e2e3e5;
+  padding: 15px;
+  background-color: var(--primaryWhiteColor);
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.05));
+}
+
+.personLine {
+  display: inline-block;
+  margin-top: 0;
+  border: none;
+  background-color: #e2e3e5;
+  height: 1px;
+}
+
 .onePersonPhoto {
   object-fit: cover;
 }
 .aboutOnePerson {
   text-align: left;
   background-color: var(--primaryWhiteColor);
-  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.05));
 }
 .onePersonName {
   font-weight: 700;
@@ -53,8 +67,14 @@
 @media screen and (max-width: 767px) {
   .onePersonContainer {
     width: 280px;
-    padding: 40px 0px;
+    padding: 40px 0px 0px;
   }
+
+  .personLine {
+    width: 130px;
+    margin-bottom: 30px;
+  }
+
   .onePersonPhoto {
     width: 280px;
     height: 244px;
@@ -80,12 +100,16 @@
 
 @media screen and (min-width: 768px) {
   .onePersonContainer {
-    width: 450px;
-    padding: 80px 0px;
+    width: 600px;
+    padding: 80px 0px 0px;
+  }
+  .personLine {
+    width: 322px;
+    margin-bottom: 70px;
   }
   .onePersonPhoto {
-    width: 450px;
-    height: 450px;
+    width: 600px;
+    height: 650px;
   }
   .aboutOnePerson {
     padding: 30px 40px;
@@ -109,15 +133,21 @@
 
 @media screen and (min-width: 1280px) {
   .onePersonContainer {
-    width: 800px;
-    padding: 120px 0px;
+    width: 950px;
+    padding: 80px 0px 0px;
   }
   .onePerson {
     display: flex;
+    padding: 25px;
+  }
+
+  .personLine {
+    width: 322px;
+    margin-bottom: 70px;
   }
   .onePersonPhoto {
-    width: 350px;
-    height: 450px;
+    width: 450px;
+    height: 500px;
   }
   .aboutOnePerson {
     padding: 40px 50px;

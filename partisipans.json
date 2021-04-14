@@ -1,0 +1,74 @@
+{
+    "members": [
+        {
+            "id": 1,
+            "imgUrl": "https://files.fm/thumb_show.php?i=5ersn5exp",
+            "name": "Alexandr Zhivotenko",
+            "title": "Team Lead, Front-End, Back-End Developer",
+            "descr": "I am 34 years old. I live in Kharkiv and came to IT from commerce. On this project I performed the role of Team Leader, Front-End and Back-End Developer."
+        },
+        {
+            "id": 2,
+            "imgUrl": "https://files.fm/thumb_show.php?i=qjad2uyfn",
+            "name": "Taisiia Morhunska",
+            "title": "Scrum Master, Front-End Developer",
+            "descr": "I am 33 years old. I live in Kiev and came to IT from light industry. On this project I performed the role of Scrum Master and JSX/CSS Developer."
+        },
+        {
+            "id": 3,
+            "imgUrl": "https://files.fm/thumb_show.php?i=h47cngm5e",
+            "name": "Anton Lazurko",
+            "title": "Front-End Developer",
+            "descr": "I am 36 years old. I live in Kharkiv and came to IT from financial sphere. On this project I performed the role of Front-End Developer."
+        },
+        {
+            "id": 4,
+            "imgUrl": "https://files.fm/thumb_show.php?i=e252js7rp",
+            "name": "Lillia Novikova",
+            "title": "Front-End Developer",
+            "descr": "I am 36 years old. I live in Kharkiv and came to IT from financial sphere. On this project I performed the role of Front-End Developer."
+        },
+        {
+            "id": 5,
+            "imgUrl": "https://files.fm/thumb_show.php?i=dkkvsguuy",
+            "name": "Ivan Vitenko",
+            "title": "Front-End Developer",
+            "descr": "I am 36 years old. I live in Kharkiv and came to IT from financial sphere. On this project I performed the role of Front-End Developer."
+        },
+        {
+            "id": 6,
+            "imgUrl": "https://files.fm/thumb_show.php?i=axh3yqvv4",
+            "name": "Dasha Voitekhovskaya",
+            "title": "Front-End Developer",
+            "descr": "I am 36 years old. I live in Kharkiv and came to IT from financial sphere. On this project I performed the role of Front-End Developer."
+        },
+        {
+            "id": 7,
+            "imgUrl": "https://files.fm/thumb_show.php?i=spbemm6au",
+            "name": "Fedir Havrylyak ",
+            "title": "Front-End Developer",
+            "descr": "I am 29 years old. I live in Lviv and came to IT from administration. On this project I performed the role of Front-End Developer."
+        },
+        {
+            "id": 8,
+            "imgUrl": "https://files.fm/thumb_show.php?i=66kfb3qaj",
+            "name": "Oleksii Fedorkan",
+            "title": "Front-End Developer",
+            "descr": "I am 31 years old. I live in Odesa and came to IT from vehicle service. On this project I performed the role of Front-End Developer."
+        },
+        {
+            "id": 9,
+            "imgUrl": "https://files.fm/thumb_show.php?i=t37u2s53c",
+            "name": "Ekaterina Kruichkovskaya",
+            "title": "Front-End Developer",
+            "descr": "I am 34 years old. I live in Vinnitsa and came to IT from marketing industry. On this project I performed the role of Front-End Developer."
+        },
+        {
+            "id": 10,
+            "name": "Alexandr Bezvuglyak",
+            "imgUrl": "https://files.fm/thumb_show.php?i=sgbjjytxs",
+            "title": "Front-End Developer",
+            "descr": "I am 36 years old. I live in Vinnitsa and came to IT from trade in car spare parts. On this project I performed the role of Front-End and Back-End Developer."
+        }
+    ]
+}
