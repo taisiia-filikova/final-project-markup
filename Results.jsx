@@ -96,11 +96,11 @@ export default function Results({ answers, setAnswers }) {
         )}
       </div>
       <div className={s.resultTextContent}>
-        <p>
+        <p className={s.totalAnswers}>
           Correct answers - <span className={s.rightAnswers}>{rightAnswers}</span>
         </p>
         <span className={s.lineVertical}></span>
-        <p>
+        <p className={s.totalAnswers}>
           Total questions - <span className={s.rightAnswers}>12</span>
         </p>
       </div>
