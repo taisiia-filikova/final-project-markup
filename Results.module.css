@@ -1,0 +1,368 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap");
+.mainConteiner {
+  display: block;
+  margin: auto;
+  max-width: 320px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  background-color: aliceblue;
+}
+
+@media screen and (min-width: 768px) {
+  .mainConteiner {
+    max-width: 768px;
+    padding-top: 41px;
+    padding-bottom: 107px;
+  }
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 22px;
+  }
+}
+
+.textContent1 {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (min-width: 768px) {
+  .textContent1 {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+.lineHorizontal {
+  margin-left: auto;
+  margin-right: auto;
+  width: 130px;
+  height: 0px;
+  opacity: 0.15;
+  border: 1px solid #00122f;
+}
+
+@media screen and (min-width: 768px) {
+  .lineHorizontal {
+    width: 322px;
+  }
+}
+
+.imgGraf {
+  margin-top: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  max-width: 320px;
+}
+
+@media screen and (min-width: 768px) {
+  .imgGraf {
+    margin-top: 40px;
+    font-size: 25px;
+  }
+}
+
+.resultTextContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (min-width: 768px) {
+  .resultTextContent {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.resultTextContent span {
+  font-weight: bold;
+}
+
+.resultTextContent p {
+  padding: 0;
+  margin: 0;
+}
+
+.lineVertical {
+  width: 0px;
+  height: 30px;
+  opacity: 0.15;
+  border: 1px solid #00122f;
+}
+
+.catImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 17px;
+  width: 120px;
+  height: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .catImage {
+    width: 176px;
+    height: 176px;
+    margin-top: 17px;
+  }
+}
+
+.grateText {
+  margin-top: 21px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (min-width: 768px) {
+  .grateText {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+}
+
+.sentenceText {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (min-width: 768px) {
+  .sentenceText {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.btnTryAgain {
+  display: block;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22px;
+  padding: 0;
+  width: 190px;
+  height: 48px;
+  background-color: #ff6b09;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (min-width: 768px) {
+  .btnTryAgain {
+    margin-top: 47px;
+  }
+}
+# sourceMappingURL=Results.module.css.map */
+
+.mainConteiner {
+  display: block;
+  margin: auto;
+  max-width: 320px;
+  padding: 30px 20px 40px 20px;
+  text-align: center;
+}
+
+.title {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  font-size: 12px;
+  line-height: 2.5;
+}
+
+.textContent1 {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.lineHorizontal {
+  display: inline-block;
+  margin-top: 0;
+  border: none;
+  background-color: #e2e3e5;
+  height: 1px;
+  width: 130px;
+}
+
+.imgGraf {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 10px;
+  max-width: 320px;
+}
+
+.resultTextContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-size: 9px;
+  line-height: 1.2;
+}
+
+.rightAnswers {
+  font-weight: 700;
+}
+
+.lineVertical {
+  display: inline-block;
+  border-right: solid 1px#e2e3e5;
+  height: 20px;
+  margin: 0 10px;
+}
+
+.catImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 17px;
+  width: 120px;
+  height: 120px;
+}
+
+.grateText {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.87;
+  margin-top: 21px;
+}
+
+.sentenceText {
+  margin-top: 10px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-size: 9px;
+  line-height: 1.2;
+}
+
+.btnTryAgain {
+  width: 190px;
+  height: 48px;
+  margin-top: 22px;
+
+  color: var(--primaryWhiteColor);
+  background-color: var(--OrangeColor);
+  border: none;
+
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.2;
+
+  cursor: pointer;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btnTryAgain:hover,
+.btnTryAgain:focus {
+  transform: scale(1.02);
+}
+
+@media screen and(min-width: 768px) {
+  .mainConteiner {
+    padding: 41px 59px 107px 59px;
+    max-width: 768px;
+  }
+
+  .title {
+    font-size: 22px;
+    line-height: 1.36;
+    margin-bottom: 10px;
+  }
+
+  .textContent1 {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .lineHorizontal {
+    width: 322px;
+  }
+
+  .imgGraf {
+    font-size: 25px;
+  }
+
+  .resultTextContent {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .lineVertical {
+    height: 20px;
+    margin: 0 20px;
+  }
+
+  .catImage {
+    width: 176px;
+    height: 176px;
+    margin-top: 29px;
+  }
+  .grateText {
+    font-size: 22px;
+    line-height: 1.36;
+    margin-top: 10px;
+  }
+  .sentenceText {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .btnTryAgain {
+    margin-top: 47px;
+  }
+}
+
+@media screen and(min-width: 1280px) {
+  .mainConteiner {
+    padding: 40px 210px 60px 210px;
+    max-width: 1280px;
+  }
+}
